@@ -36,7 +36,7 @@ function playGame (playerPick){
         result.textContent = "Result: You Win 🎉";
         playerScoreValue +=1;
 
-        playerScore.textContent = `player Score: ${playerScoreValue}`;
+        playerScore.textContent = `Player Score: ${playerScoreValue}`;
     }
 
     else{
@@ -61,7 +61,7 @@ function playGame (playerPick){
         playerScoreValue = 0;
         computerScoreValue = 0;
 
-        playerScore.textContent = `player Score: 0`;
+        playerScore.textContent = `Player Score: 0`;
         computerScore.textContent = `Computer Score: 0`;
 
         playerChoice.textContent = "";
