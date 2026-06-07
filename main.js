@@ -43,7 +43,7 @@ function playGame (playerPick){
         result.textContent = "Result: Computer Win 😈";
         computerScoreValue +=1;
 
-        computerScore.textContent = `computer Score: ${computerScoreValue}`;
+        computerScore.textContent = `Computer Score: ${computerScoreValue}`;
     }
 
     if(playerScoreValue === 5 || computerScoreValue === 5){
